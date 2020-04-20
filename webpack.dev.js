@@ -9,10 +9,10 @@ module.exports = merge (common, {
     historyApiFallback: { disableDotRule: true },
     proxy: {
       '/': 'http://localhost:3001'
-    }
-    /*overlay: true,
+    },
     open: true,
-    stats: 'errors-only'*/
+    overlay: true,
+    stats: 'errors-only'
   },
   module: {
     rules: [
