@@ -1,0 +1,36 @@
+.popup__wrapper {
+  position: absolute;
+  top: 120px;
+  width: 300px;
+  margin-top: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+  font-size: 12px;
+  color: #999;
+  background-color: #fff;
+}
+
+.popup__item {
+  padding: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.popup__item--selected {
+  background-color: #f3f3f3;
+}
+
+.popup__item:hover {
+  background-color: #f1f1f1;
+}
+
+.popup__highlight {
+  color: #888;
+  background-color: orange;
+}
